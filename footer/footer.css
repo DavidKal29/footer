@@ -1,0 +1,63 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#footer{
+    bottom: 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 1px solid black;
+    position: fixed;
+    width: 240vh;
+    height: 60vh;
+}
+#footer_img{
+    width: 10%;
+}
+#footer_i{
+    font-size: 25px;
+}
+#footer_logo{
+    font-size: 35px;
+}
+.links{
+    text-decoration: none;
+    color: black;
+}
+#footer_socialnetwork{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 30px;
+}
+
+#footer_socialnetwork p{
+    text-align: center;
+}
+#footer_redes{
+    display: flex;
+    justify-content: space-around;
+}
+#footer_company{
+    display: flex;
+    flex-direction: column;
+    margin-top: 30px;
+}
+
+
+#footer_latest_news{
+    margin-top: 30px;
+}
+#footer_noticia{
+    display: flex;
+    margin-top: 10px;
+}
+#footer_politica{
+    margin-top: 100px;
+}
+#footer_derechos{
+    margin-top: ;
+}
+
